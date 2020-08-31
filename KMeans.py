@@ -9,7 +9,7 @@ colors = ['green', 'orange', 'yellow', 'blue', 'violet', 'gold', 'chartreuse', '
 class KMeans():
     
     # Constructor taking the dataset, the number of iterations and the number of clusters 
-    def __init__(self, data, iterations=10, k=3):
+    def __init__(self, data, iterations=10, k=5):
        self.data = data
        self.n = len(data)
        self.k = k
